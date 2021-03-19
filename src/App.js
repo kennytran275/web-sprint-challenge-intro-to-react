@@ -14,7 +14,6 @@ const App = () => {
   // sync up with, if any.
 
   useEffect(() => {
-    // console.log(https://swapi.dev/api/people/);
     axios
       .get("https://swapi.dev/api/people/")
       .then((res) => {
